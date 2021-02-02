@@ -61,7 +61,7 @@ public class MemberServiceImpl implements IF_MemberService {
 	@Override
 	public void herokuJobMethod() throws Exception {
 		// 월-금 오전8시부터 오후 11시까지
-		String urlStr = "https://baekyeongdeuk.herokuapp.com";//본인앱 태그
+		String urlStr = "https://spring5-ulr.herokuapp.com";//본인앱 태그
 		URL url = new URL(urlStr);
 		HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
 		urlConnection.setUseCaches(false);//기존접속된 정보와 상관없이 무조건 접속
