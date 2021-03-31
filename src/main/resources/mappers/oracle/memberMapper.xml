@@ -92,5 +92,10 @@ WHERE TABLE_B.RNUM > (#{queryStartNo}/#{queryPerPageNum})*#{queryPerPageNum}
 	<select id="readMember" resultType="org.edu.vo.MemberVO">
 		SELECT * FROM tbl_member WHERE user_id=#{user_id}
 	</select>
-
+	
+	<select id="testJob" resultType="org.edu.vo.MemberVO">
+	<![CDATA[
+	SELECT * FROM TBL_MEMBER WHERE UPDATE_DATE < ADD_MONTHS(SYSDATE,-6)
+	]]>
+	</select>
 </mapper>

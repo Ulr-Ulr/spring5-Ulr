@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 
 /**
  * MemberServiceImpl는 DAO메서드 호출을 구현
- * @author 김일국
+ * @author Ulr
  *
  */
 @Service
@@ -72,6 +72,17 @@ public class MemberServiceImpl implements IF_MemberService {
 		}else {
 			System.out.println("헤로쿠 앱이 비활성화 상태입니다.");
 		}
+	}
+
+	@Override
+	public void testJob() throws Exception {
+		// DAO호출해서 반환값으로 회원목록을 받습니다.
+		List<MemberVO> memberList = memberDAO.testJob();
+		System.out.println("6개월동안 회원정보 수정이 없는 회원입니다.");
+		for(MemberVO memberVO:memberList) {
+			System.out.println(memberVO.getUser_id() +":"+ memberVO.getEmail());
+		}
+		
 	}
 
 }

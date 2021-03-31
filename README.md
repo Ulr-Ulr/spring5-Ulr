@@ -1,6 +1,6 @@
 스프링관리자 AdminLTE템플릿 샘플:
 https://adminlte.io/themes/v3/pages/forms/general.html
-https://kimilguk-mysql.herokuapp.com/ (아이디/암호:admin/user02)
+https://ulr-mysql.herokuapp.com/ (아이디/암호:admin/user02)
 수업에 대해서
 작업 내용의 복습시간은 이후 다른 코딩작업으로 대신하게 됩니다.
 예를 들면, 스프링프로젝트에서 관리자단 게시판을 만들면,
@@ -66,7 +66,7 @@ Json데이터는 문자열기반이고, 구조가 Key:Value 형식으로 만들�
 시도1. 플레이파크 신규 신청.(황초희,양희망,이희탁,이현진,정동규,이규혁,김수연,이찬홍,이병현,신승만)
 시도2. 이미 신청되어있다고 나오고 않되시는 분: 박정수(파스타게시판에 해당문제 글등록-학생본인해결해 주시면 좋겠습니다.)
 작년에 작업한 첨부파일 업로드 부분 1개 파일만 에서 다중파일 업로드로 구현OK.(아래URL 에서확인).
-다중파일 업로드 구현내역 확인: https://github.com/miniplugin/kimilguk-spring5/commit/9a144dc4821714f4c4cfa3e228498ae1c3202129
+다중파일 업로드 구현내역 확인: https://github.com/miniplugin/ulr-spring5/commit/9a144dc4821714f4c4cfa3e228498ae1c3202129
 리스트 페이지의 게시글 번호 계산식 추가
 ${boardVO.bno} 대신 카운트 계산식 적용(아래) ->
 ${pageVO.totalCount-(pageVO.page*pageVO.queryPerPageNum)+pageVO.queryPerPageNum-status.index}
@@ -621,9 +621,9 @@ member_list.jsp에서 MemberVO 클래스 테스트 사용 예정(아래).
 Date toDay = new Date();
 MemberVO m1 = new MemberVO();
 // setter 메서드를 이용해 해당 인스턴스 변수에 값을 넣는다.
-m1.setUser_id("kimilguk");
+m1.setUser_id("ulr");
 m1.setUser_name("김일국");
-m1.setEmail("kimilguk@abc.com");
+m1.setEmail("ulr@abc.com");
 m1.setEnabled(true);
 m1.setReg_date(toDay);
 m1.setLevels("ROLE_ADMIN");
@@ -813,7 +813,7 @@ index.jsp 에서 footer.jsp에 들어갈 영역 Cut해서 붙여넣기. 후 확�
 반응형 웹페이지 작업 결과를 스프링MVC프로젝트에서 home.jsp로 변환.
 http://localhost:8080/ 새로만든 home.jsp가 나오도록 하겠습니다.
 위 home.jsp 결과물 헤로쿠 클라우드에 올릴 예정.
-최종결과: https://kimilguk.herokuapp.com (반응형 홈페이지 나오게 됩니다.)
+최종결과: https://ulr.herokuapp.com (반응형 홈페이지 나오게 됩니다.)
 파스타 클라우드 초기화 따른 파스타 재신청 처리예정.
 20201126(목) 작업
 반응형 웹페이지 작업 마무리.
@@ -1138,7 +1138,7 @@ V1.0.0: 1(메이저버전).0(마이너버전).0(릴리즈버전-실행버전)
 파스타 클라우드에 스프링MVC프로젝트 올리기 후 도메인으로 접속 확인-다음과목에서 다시진행예정.
 파스타 정상작동이 확인될때까지는 헤로쿠에서 계속작업예정 입니다.
 locked 되신분들은 락은 파스타 클라우드 대시보드에 로그인 되시는 상태로 다시 시작하게됩니다.
-http://kimilguk.paas-ta.org/ 접속확인-다음과목에서진행예정.
+http://ulr.paas-ta.org/ 접속확인-다음과목에서진행예정.
 깃 사용하기 위해서 git scm설치한 것처럼, cf(클라우드 파운드리) cli 프로그램 설치가 필요합니다.
 헤로쿠는 깃과 바로 연동되는 것이 장점.
 파스타는 이클립스와 바로 연동되는 것이 장점.(1년에 1번은 뒤집어 엎어지기 때문에, 여러분 자료가 다 사라집니다.)
@@ -1253,7 +1253,7 @@ log: 로그 에러상황을 확인할때 보통 많이 사용하는 용어. log4
 헤로쿠에서 Deploy Branch(깃브랜치) 클릭 -> 깃소스 -> 클라우드로 배포
 헤로쿠에서 OpenApp 버튼: https://학생명.herokuapp.com/ ( 나중에 이력서 포트폴리오 주소가 됩니다.)
 20201112(목)
-실습4: 헤로쿠 클라우드에 kimilguk프로젝트 배포, 도메인URL로 크롬에서 확인. OK.
+실습4: 헤로쿠 클라우드에 ulr프로젝트 배포, 도메인URL로 크롬에서 확인. OK.
 pom.xml에서 수정사항이 발생되면, 메이븐 업데이트가 필요합니다. OK.
 아마존웹서비스(AWS)도 마찬가지, 클라우드 파스타와 마찬가지로,
 헤로쿠도 클라우드 설정파일을 작성해야지만, 작동이 됩니다.
@@ -1294,13 +1294,13 @@ egov 는 삼성SDS, LG CNS, SK C&C 3개 컨소시엄으로 만들었고, 200억�
 
 실습1: 깃 저장소 만들어서 소스코드버전관리(형상관리)를 할 예정. OK.
 
-깃 github.com 에 아이디/암호 회원가입하십니다. -> kimilguk 깃저장소 만들었습니다.
+깃 github.com 에 아이디/암호 회원가입하십니다. -> ulr 깃저장소 만들었습니다.
 
 git scm 프로그램을 여러분 PC에 설치가 필요합니다. OK.
 
 실습2: 이클립스에서 톰캣(Tomcat고양이) 웹서버 만드실 예정. OK.
 
-실습3: 이클립스에서 kimilguk프로젝트 만드시고, 메이븐 compile(java->class파일), package(war파일) 3가지 실습예정.
+실습3: 이클립스에서 ulr프로젝트 만드시고, 메이븐 compile(java->class파일), package(war파일) 3가지 실습예정.
 
 war(와르파일): Web ARchive 파일: 웹실행파일.
 
@@ -1318,7 +1318,7 @@ war(와르파일): Web ARchive 파일: 웹실행파일.
 
 context : 맥락(줄거리) OK.
 
-깃 서버와 이클립스의 kimilguk프로젝트 연동시키는 방법 실습예정.
+깃 서버와 이클립스의 ulr프로젝트 연동시키는 방법 실습예정.
 
 egov 설치(설정) 후 실행 후 PDF이론 들어가겠습니다.
 
@@ -1572,7 +1572,7 @@ localhost 특별한 도메인PC에서 인식하는 : http://localhost/ 실행(�
 
 http://127.0.0.1 (개발자용 전용의 PC 아이피) = http://localhost
 
-포트: 서비스 위치( http://kimilguk-mysql.paas-ta.org:80포트 )
+포트: 서비스 위치( http://ulr-mysql.paas-ta.org:80포트 )
 
 웹서비스: http://localhost:80 포트
 
@@ -1747,7 +1747,7 @@ Open JDK를 설치해서 자바개발환경을 만들게 됩니다.
 
 위 깃소스를 헤로쿠에 Deploy(배포)해서 서비스를 하게 됩니다.
 
-https://kimilguk.herokuapp.com 이렇게 서비스 도메인이 자동으로 등록됩니다.
+https://ulr.herokuapp.com 이렇게 서비스 도메인이 자동으로 등록됩니다.
 
 단, 최초 실행 속도가 느리다는 것이 단점.
 
