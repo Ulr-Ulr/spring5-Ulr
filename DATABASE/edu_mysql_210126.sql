@@ -95,7 +95,7 @@ CREATE TABLE `tbl_board_type` (
 
 LOCK TABLES `tbl_board_type` WRITE;
 /*!40000 ALTER TABLE `tbl_board_type` DISABLE KEYS */;
-INSERT INTO `tbl_board_type` VALUES ('gallery','겔러리',2),('notice','공지사항',1),('test','테스트',3);
+INSERT INTO `tbl_board_type` VALUES ('gallery','갤러리',2),('notice','공지사항',1),('test','테스트',3);
 /*!40000 ALTER TABLE `tbl_board_type` ENABLE KEYS */;
 UNLOCK TABLES;
 
