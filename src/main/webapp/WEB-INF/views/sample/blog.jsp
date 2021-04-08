@@ -25,7 +25,7 @@
 <hr><!-- 수평선태그horizontal -->
 <li>
 <a href="javascript:;">
-<div class="preveiw"><img src="/resources/sample/img/xmas2.jpg" alt="블로그이미지3"></div>
+<div class="preveiw"><img src="/resources/sample/img/xmas3.jpg" alt="블로그이미지3"></div>
 <div class="info2"><time datetime="2020-11-23">2020-11-23</time></div>
 <h2>블로그게시물 제목3</h2>
 </a>
@@ -35,23 +35,23 @@
 <a href="javascript:;">
 <div class="preveiw"><img src="/resources/sample/img/park.jpg" alt="블로그이미지1"></div>
 <div class="info2"><time datetime="2020-11-23">2020-11-23</time></div>
-<h2>블로그게시물 제목1</h2>
+<h2>블로그게시물 제목4</h2>
 </a>
 </li>
 <hr><!-- 수평선태그 -->
 <li>
 <a href="javascript:;">
-<div class="preveiw"><img src="/resources/sample/img/xmas.jpg" alt="블로그이미지2"></div>
+<div class="preveiw"><img src="/resources/sample/img/xmas3.jpg" alt="블로그이미지2"></div>
 <div class="info2"><time datetime="2020-11-23">2020-11-23</time></div>
-<h2>블로그게시물 제목2</h2>
+<h2>블로그게시물 제목5</h2>
 </a>
 </li>
 <hr><!-- 수평선태그horizontal -->
 <li>
 <a href="javascript:;">
-<div class="preveiw"><img src="/resources/sample/img/xmas2.jpg" alt="블로그이미지3"></div>
+<div class="preveiw"><img src="/resources/sample/img/xmas.jpg" alt="블로그이미지3"></div>
 <div class="info2"><time datetime="2020-11-23">2020-11-23</time></div>
-<h2>블로그게시물 제목3</h2>
+<h2>블로그게시물 제목6</h2>
 </a>
 </li>
 </div>

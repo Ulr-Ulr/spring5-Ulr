@@ -11,7 +11,7 @@
 <a href="javascript:;">
 <div class="info">
 <h2>갤러리 제목1</h2>
-<p>개러러러러러러러러리리내요용오오오오오옹</p>
+<p>갤러리 내용</p>
 </div>
 <img src="/resources/sample/img/xmas2.jpg" alt="갤러리게시판2 이미지1">
 </a>
@@ -20,7 +20,7 @@
 <a href="javascript:;">
 <div class="info">
 <h2>갤러리 제목2</h2>
-<p>개러러러러러러러러리리내요용오오오오오옹</p>
+<p>갤러리 내용</p>
 </div>
 <img src="/resources/sample/img/xmas2.jpg" alt="갤러리게시판2 이미지2">
 </a>
@@ -29,7 +29,7 @@
 <a href="javascript:;">
 <div class="info">
 <h2>갤러리 제목3</h2>
-<p>개러러러러러러러러리리내요용오오오오오옹</p>
+<p>갤러리 내용</p>
 </div>
 <img src="/resources/sample/img/xmas2.jpg" alt="갤러리게시판2 이미지3">
 </a>
@@ -38,7 +38,7 @@
 <a href="javascript:;">
 <div class="info">
 <h2>갤러리 제목4</h2>
-<p>개러러러러러러러러리리내요용오오오오오옹</p>
+<p>갤러리 내용</p>
 </div>
 <img src="/resources/sample/img/xmas2.jpg" alt="갤러리게시판2 이미지4">
 </a>
@@ -47,7 +47,7 @@
 <a href="javascript:;">
 <div class="info">
 <h2>갤러리 제목5</h2>
-<p>개러러러러러러러러리리내요용오오오오오옹</p>
+<p>갤러리 내용</p>
 </div>
 <img src="/resources/sample/img/xmas2.jpg" alt="갤러리게시판2 이미지5">
 </a>
@@ -56,7 +56,7 @@
 <a href="javascript:;">
 <div class="info">
 <h2>갤러리 제목6</h2>
-<p>개러러러러러러러러리리내요용오오오오오옹</p>
+<p>갤러리 내용</p>
 </div>
 <img src="/resources/sample/img/xmas2.jpg" alt="갤러리게시판2 이미지6">
 </a>
@@ -65,7 +65,7 @@
 <a href="javascript:;">
 <div class="info">
 <h2>갤러리 제목7</h2>
-<p>개러러러러러러러러리리내요용오오오오오옹</p>
+<p>갤러리 내용</p>
 <img src="/resources/sample/img/xmas2.jpg" alt="갤러리게시판2 이미지7">
 </a>
 </li>
@@ -73,7 +73,7 @@
 <a href="javascript:;">
 <div class="info">
 <h2>갤러리 제목8</h2>
-<p>개러러러러러러러러리리내요용오오오오오옹</p>
+<p>갤러리 내용</p>
 </div>
 <img src="/resources/sample/img/xmas2.jpg" alt="갤러리게시판2 이미지8">
 </a>

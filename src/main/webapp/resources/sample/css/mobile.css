@@ -94,7 +94,7 @@ line-height:1.9;/* 줄간격 단위 1.9 글자크기에 1.9배수 */
 font-size:14px;
 }
 .weare-body {
-margin-top:68px;
+margin-bottom:20px;
 }
 .weare-body li {
 text-align:center;
@@ -250,12 +250,11 @@ text-align:right;/*div영역안쪽의 내용을 좌우 정렬시키는 명령*/
 
 /* 푸터영역시작 */
 .footer {
-margin-top:30px;
-background:#fff;
+margin:30px 30px;
 }
 .footer p {
 margin: 21px 0px;
-color:#fff;
+color:#424242;
 text-align:center;/*문장내용을 가로 가운데 정렬*/
 }
 /* 푸터영역끝 */
