@@ -171,10 +171,10 @@ margin-top:30px;
 .blog-section h1 {
 text-align:center;
 font-size:30px;
-color:#ece6cc;
+color: #424242;
 font-weight:nomal;
 }
-.blog-section .container {width:90%;margin0px auto;}
+.blog-section .container {width:90%;margin: 0px auto;}
 /* 위에서 현재영역을 가운데 정렬시 margin:0 auto; 좌우로5%가 자동으로 잡힘 */
 .blog-section li {
 margin-top:30px;
@@ -194,10 +194,9 @@ font-weight:nomal;
 line-height:1.6;/* 줄간격단위는 현재 글자크기의 배수 */
 }
 /* reset.css. 에서 hr태그를 display:none;적용했기때문에, 특별히 blog영역에서만 hr지정 */
-.blog-section hr {display:block;height:1px; background:#ece6cc;}
+.blog-section hr {display:block;height:1px; background:#424242;}
 
 
-}
 /*blog영역끝 */
 /* contact 영역 시작 */
 .contactus-section {
@@ -206,7 +205,7 @@ margin-top:30px;
 .contactus-section h1 {
 font-size:42px;
 text-align:center;
-color:#ece6cc;
+color:rgb(255, 0, 128);
 font-weight:normal;
 }
 .contactus-section .container {
@@ -239,7 +238,7 @@ padding-bottom:10px;
 .contactus-section form button {
 padding:15px;/*여백이 있는 버튼을 만들기*/
 font-size:12px;
-background:#ece6cc;
+background:rgb(0, 0, 0);
 color:#fff;
 border:0px;
 }
@@ -252,7 +251,7 @@ text-align:right;/*div영역안쪽의 내용을 좌우 정렬시키는 명령*/
 /* 푸터영역시작 */
 .footer {
 margin-top:30px;
-background:#ece6cc;
+background:#fff;
 }
 .footer p {
 margin: 21px 0px;
